@@ -20,8 +20,14 @@ function PopularMovieCart({ movie }) {
             () => setIsLike(!isLike)
         }
         className = { isLike ? 'icon-color  iconHeart' : 'text-color-white iconHeart' }
-        / > < /
+        / >
+
+        <
+        /
         div >
+
+
+
 
         <
         /div>

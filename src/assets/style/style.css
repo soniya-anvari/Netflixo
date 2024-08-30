@@ -32,6 +32,7 @@ body {
     --bg-btn-color: #f20000;
     --bg-gray-color: #e0d5d5;
     --bg-box-color: #0b0f29;
+    --border-color: #1f2937;
     /*!!  End BackGround Color */
     /*!!  Start Other Color */
     --color-for-icons-and-svgs: #101010;
@@ -488,3 +489,29 @@ svg {
 
 
 /*!!end Footer styles */
+
+
+/*!!start FilterMovies styles*/
+
+.selectBox {
+    padding: 3rem;
+    border-radius: var(--border-radius-0-8-rem);
+    border: 1px solid var(--border-color);
+}
+
+.selectBox select {
+    width: 300px;
+    border: 1px solid var(--border-color);
+}
+
+.filterBtn {
+    background-color: var(--sec-bg-color);
+    border-radius: var(--border-radius-0-8-rem);
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    width: fit-content;
+    padding: 0 2rem;
+}
+
+
+/*!!end FilterMovies styles */
