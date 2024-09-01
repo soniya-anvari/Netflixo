@@ -18,7 +18,7 @@ function Navbar() {
         <
         /
         div > <
-        div className = " col col-lg-5 col-md-12 d-flex align-items-center " >
+        div className = " col col-lg-4 col-md-12 d-flex align-items-center " >
         <
         FiSearch className = "icon-color ms-3 border-radius-0-8-rem cursor-p  fs-2-0-rem  w-8 h-10" / >
         <
@@ -27,7 +27,7 @@ function Navbar() {
         placeholder = "Search Movie Name from here" / >
         <
         /div> <
-        div className = "col col-lg-5 col-md-12 d-flex " >
+        div className = "col col-lg-6 col-md-12 d-flex " >
         <
         ul className = "d-flex align-items-center" >
         <

@@ -1,11 +1,18 @@
 import { FaHeart } from "react-icons/fa";
 import { shortenTitle } from "../Hepler/helper";
 import { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 
 function PopularMovieCart({ movie }) {
     const [isLike, setIsLike] = useState(false)
+    const navigate = useNavigate()
+    const clickHandler = () => {
+        navigate(`/movie/${movie.id}`)
+
+    }
     return ( <
-        div className = " col-lg-3 col-md-6 col-sm-12 movie   " >
+        div onClick = { clickHandler }
+        className = " col-lg-3 col-md-6 col-sm-12 movie   " >
         <
         img src = { movie.poster }
         className = " movieCart" /
