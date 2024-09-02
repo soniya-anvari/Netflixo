@@ -1,3 +1,3 @@
 <div>
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap,tailwind,github" alt='icons' />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,github" alt='icons' />
 </div>
