@@ -29,7 +29,7 @@ function DetailsMovie() {
 
     }, [])
     if (!loading)
-        return <Loading className = "container mt-5" / >
+        return <Loading className = " mt-5" / >
 
 
             return ( < > < div className = "container mt-5" > <

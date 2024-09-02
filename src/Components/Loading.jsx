@@ -2,7 +2,8 @@ import { ScaleLoader } from 'react-spinners'
 
 function Loading() {
     return ( <
-        ScaleLoader color = "#f20000" / >
+        ScaleLoader className = 'container'
+        color = "#f20000" / >
     )
 }
 
