@@ -43,9 +43,17 @@ function Footer() {
                 <Link> Romantic </Link>
               </li>
               <li>
+<<<<<<< HEAD
                 <Link> Drama </Link>
               </li>
               <li>
+=======
+                {" "}
+                <Link> Drama </Link>
+              </li>
+              <li>
+                {" "}
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
                 <Link> Historical </Link>
               </li>
             </ul>
@@ -57,6 +65,7 @@ function Footer() {
             </h3>{" "}
             <ul className='list-style-none  mt-4'>
               <li>
+<<<<<<< HEAD
                 <Link to='/dashboard'> Dashboard </Link>{" "}
               </li>
               <li>
@@ -67,6 +76,21 @@ function Footer() {
               </li>
               <li>
                 <Link to='/dashboard/categories'> Categories </Link>
+=======
+                <Link> Dashboard </Link>{" "}
+              </li>{" "}
+              <li>
+                {" "}
+                <Link> My Favorites </Link>
+              </li>
+              <li>
+                {" "}
+                <Link> Profile </Link>
+              </li>
+              <li>
+                {" "}
+                <Link> Change Password </Link>
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
               </li>
             </ul>
           </div>{" "}

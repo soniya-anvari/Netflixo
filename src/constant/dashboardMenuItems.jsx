@@ -1,8 +1,16 @@
 import { TbLayoutDashboardFilled } from "react-icons/tb";
+<<<<<<< HEAD
 
 import { TbCategoryPlus } from "react-icons/tb";
 import { IoIosAdd } from "react-icons/io";
 import { FaRegHeart } from "react-icons/fa6";
+=======
+import { CiCircleList } from "react-icons/ci";
+import { TbCategoryPlus } from "react-icons/tb";
+import { IoIosAdd } from "react-icons/io";
+import { FaRegHeart } from "react-icons/fa6";
+
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
 const menuItems = [
   {
     id: 1,

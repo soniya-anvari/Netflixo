@@ -18,6 +18,7 @@ function RecentMovies() {
   return (
     <div>
       <table className='tableDashboard'>
+<<<<<<< HEAD
         <thead>
           <tr className='bg-gray-color  '>
             <th scope='col'>Image</th>
@@ -27,6 +28,15 @@ function RecentMovies() {
             <th scope='col'>Year</th>
           </tr>
         </thead>
+=======
+        <tr className='bg-gray-color  '>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Category</th>
+          <th>Country</th>
+          <th>Year</th>
+        </tr>
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
 
         {recentMovies.map((movie) => (
           <RecentMoviesBox movie={movie} />

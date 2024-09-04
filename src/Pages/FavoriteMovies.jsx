@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import { useSelector } from "react-redux";
 import FavoriteMovieBox from "../Components/FavoriteMovieBox";
 function FavoriteMovies() {
@@ -31,6 +32,11 @@ function FavoriteMovies() {
       </table>
     </div>
   );
+=======
+
+function FavoriteMovies() {
+  return <div></div>;
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
 }
 
 export default FavoriteMovies;

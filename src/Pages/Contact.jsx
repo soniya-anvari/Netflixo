@@ -5,7 +5,11 @@ import { CiLocationOn } from "react-icons/ci";
 
 function Contact() {
   return (
+<<<<<<< HEAD
     <div className='container mt-4'>
+=======
+    <div className='container'>
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
       <div className='BannerAboutContact d-flex align-items-center fs-2-8-rem text-color-white justify-content-center'>
         <h3> Contact Us </h3>{" "}
       </div>

@@ -2,7 +2,11 @@ import React from "react";
 
 function About() {
   return (
+<<<<<<< HEAD
     <div className='container mt-4'>
+=======
+    <div className='container'>
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
       <div className='BannerAboutContact d-flex align-items-center fs-2-8-rem text-color-white justify-content-center'>
         <h3> About Us </h3>{" "}
       </div>
@@ -35,6 +39,10 @@ function About() {
           <h3 className='fs-2-8-rem '> 10 K </h3>{" "}
           <h4 className='fs-2-2-rem mt-3'> Listed Movies </h4>{" "}
           <p className='fs-1-6-rem fs-lighter text-color-for-paraghraph mt-3'>
+<<<<<<< HEAD
+=======
+            {" "}
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
             Lorem Ipsum is simply dummy text of the printing and{" "}
           </p>{" "}
         </div>{" "}

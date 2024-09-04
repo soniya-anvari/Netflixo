@@ -27,11 +27,19 @@ function Movie() {
               },
             }
           );
+<<<<<<< HEAD
+=======
+          console.log("res", response);
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
 
           allMovies = [...allMovies, ...response.data.data];
         }
         setMovies(allMovies);
         setFilteredMovie(allMovies);
+<<<<<<< HEAD
+=======
+        console.log("m", movies);
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
       } catch (error) {
         setError(error.message);
         console.log(error);
@@ -51,25 +59,47 @@ function Movie() {
   if (filteredMovies.length == 0)
     return (
       <h1 className='container fs-2-8-rem text-color-white mt-5'>
+<<<<<<< HEAD
         No video found
       </h1>
     );
   return (
     <div className='container mt-4'>
+=======
+        {" "}
+        No video found{" "}
+      </h1>
+    );
+  return (
+    <div className='container'>
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
       <FilterMovie
         filteredMovies={filteredMovies}
         setFilteredMovie={setFilteredMovie}
         movies={movies}
+<<<<<<< HEAD
       />
       <h2 className='my-5 text-color-white fs-2-8-rem'>
         Total <span className='icon-color'> {totalItems(filteredMovies)} </span>
         items Found
       </h2>
+=======
+      />{" "}
+      <h2 className='my-5 text-color-white fs-2-8-rem'>
+        {" "}
+        Total <span className='icon-color'> {totalItems(filteredMovies)} </span>
+        items Found{" "}
+      </h2>{" "}
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
       <div className='row d-flex  flex-wrap MoviesContainer '>
         {filteredMovies.length > 0 &&
           filteredMovies.map((movie) => (
             <MovieBox key={movie.id} movie={movie} />
+<<<<<<< HEAD
           ))}
+=======
+          ))}{" "}
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
       </div>{" "}
     </div>
   );

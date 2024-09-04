@@ -265,6 +265,7 @@ button:focus:not(:focus-visible) {
   outline: 0;
 }
 /*!! start Navbar style*/
+<<<<<<< HEAD
 .navbar {
   padding: 20px;
 }
@@ -387,13 +388,55 @@ button:focus:not(:focus-visible) {
   .bar.open:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
   }
+=======
+.favoritTotal {
+  position: relative;
+  bottom: 22px;
+  right: 5px;
+  padding: 0 10px;
+  border-radius: 50%;
+  background-color: var(--bg-btn-color);
+}
+.navbar {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul li a,
+svg {
+  margin-left: 4rem;
+  transition: all 0.7s;
+}
+
+.navbar ul li a:hover {
+  color: #f20000;
+}
+
+.search-input {
+  padding: 1.2rem 1rem;
+  width: 90%;
+  font-size: 1.7rem;
+  background-color: var(--bg-gray-color);
+  padding-left: 2rem;
+}
+
+.activePage {
+  color: #f20000;
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
 }
 /*! end Navbar styles */
 /*!! start banner styles */
 
 .banner {
   height: 55rem !important;
+<<<<<<< HEAD
   max-width: 1140px;
+=======
+  max-width: 1280px;
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
   margin: auto;
   overflow-y: hidden;
 }
@@ -418,12 +461,15 @@ button:focus:not(:focus-visible) {
   color: white !important;
   border-radius: 0.1rem;
 }
+<<<<<<< HEAD
 @media (max-width: 992px) {
   .banner {
     height: 34rem !important;
   }
 }
 
+=======
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
 /*!! end banner styles */
 /*!!start popularMovie styles*/
 
@@ -431,6 +477,10 @@ button:focus:not(:focus-visible) {
   border: 1px solid #5a6e78;
   border-radius: var(--border-radius-0-4-rem);
   cursor: pointer;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
   padding: 0 !important;
   width: 22% !important;
   margin: 1.2rem;
@@ -501,7 +551,11 @@ button:focus:not(:focus-visible) {
 }
 
 .DownloadMovieBox .description {
+<<<<<<< HEAD
   padding: 4rem 0;
+=======
+  padding: 7rem;
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
 }
 
 .mobileImage {
@@ -536,6 +590,13 @@ button:focus:not(:focus-visible) {
 .Footer {
   margin-top: 6rem;
   height: fit-content;
+<<<<<<< HEAD
+=======
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
 }
 
 .Footer ul li a {
@@ -550,11 +611,14 @@ button:focus:not(:focus-visible) {
 .Footer h3 {
   margin-top: 5rem;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 992px) {
   .Footer {
     padding-left: 0.8rem;
   }
 }
+=======
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
 /*!!end Footer styles */
 /*!!start FilterMovies styles*/
 
@@ -728,8 +792,13 @@ button:focus:not(:focus-visible) {
   display: block;
 }
 .dashboardMenu {
+<<<<<<< HEAD
   height: fit-content;
   padding: 4rem 3rem;
+=======
+  height: 290px;
+  padding: 5rem 3rem;
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
   border: 1px solid var(--border-color);
 }
 .dashboardMenu ul li {
@@ -752,12 +821,17 @@ button:focus:not(:focus-visible) {
 /*!!end dashboardMenu styles*/
 
 /*!!start dashboard styles*/
+<<<<<<< HEAD
 .dashboardMenuOutlet {
   margin-left: 4rem;
 }
 .dashboardBox {
   border: 1px solid var(--border-color);
   overflow-x: auto;
+=======
+.dashboardBox {
+  border: 1px solid var(--border-color);
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
 }
 .tableDashboard {
   font-family: Arial, Helvetica, sans-serif;
@@ -768,7 +842,11 @@ button:focus:not(:focus-visible) {
 
 .tableDashboard td,
 .tableDashboard th {
+<<<<<<< HEAD
   padding: 0.9rem 2rem;
+=======
+  padding: 0.9rem 3rem;
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
   color: white;
   font-size: var(--fs-1-6-rem);
 }
@@ -796,6 +874,7 @@ button:focus:not(:focus-visible) {
   color: white;
 }
 .tableCategory {
+<<<<<<< HEAD
   width: 70% !important;
 }
 
@@ -849,6 +928,13 @@ button:focus:not(:focus-visible) {
 @media (max-width: 992px) {
   .dashboardMenuOutlet {
     margin-left: 0;
+=======
+  width: 60% !important;
+}
+@media (max-width: 992px) {
+  .secBoxDashboard,
+  .dashboardBox {
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
     margin-top: 4rem;
   }
 }
@@ -874,7 +960,10 @@ button[disabled] {
   border: 1px solid #999999;
   background-color: #cccccc;
   color: #666666;
+<<<<<<< HEAD
   cursor: default;
+=======
+>>>>>>> 31c2d3d15c0fb4978e0bce72dcaf41ddc215c971
 }
 
 @media (max-width: 768px) {
