@@ -5233,11 +5233,19 @@
 .bg-black-color {
     background-color: var(--bg-black-color);
 }
+.bg-orange-for-icon{
+    background-color: var(--bg-orange-for-icon);
+}
+.bg-blue-for-icon{
+    background-color: var(--bg-blue-for-icon);
+}
 
 .bg-box-color {
     background-color: var(--bg-box-color);
 }
-
+.bg-gray-color{
+    background-color: var(--bg-gray-color);
+}
 .bg-btn-color {
     background-color: var(--bg-btn-color);
 }
