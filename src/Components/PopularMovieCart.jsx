@@ -53,3 +53,5 @@ function PopularMovieCart({ movie }) {
 }
 
 export default PopularMovieCart;
+
+export default PopularMovieCart;

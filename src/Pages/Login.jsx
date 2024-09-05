@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../assets/images/logo.png";
 import api from "../api/api";
+import api from "../api/api";
 
+import { Link, useNavigate } from "react-router-dom";
 import { Link, useNavigate } from "react-router-dom";
 import { FaArrowRightToBracket } from "react-icons/fa6";
 
@@ -23,7 +26,12 @@ function Login() {
     setIsClick(true);
 
     const { username, password } = fields;
+    const { username, password } = fields;
 
+    let formData = new FormData();
+    formData.append("grant_type", "password");
+    formData.append("username", username);
+    formData.append("password", password);
     let formData = new FormData();
     formData.append("grant_type", "password");
     formData.append("username", username);
@@ -79,5 +87,7 @@ function Login() {
     </div>
   );
 }
+
+export default Login;
 
 export default Login;
