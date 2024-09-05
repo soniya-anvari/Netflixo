@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import React, { useState } from "react";
-import { FiSearch } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { IoPersonOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa6";

@@ -1,7 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import axios from "axios";
-import React, { useEffect, useState } from "react";
 import MovieBox from "../Components/PopularMovieCart";
 import Loading from "../Components/Loading";
 import FilterMovie from "../Components/FilterMovies";

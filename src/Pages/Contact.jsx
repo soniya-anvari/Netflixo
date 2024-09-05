@@ -1,5 +1,4 @@
 import React from "react";
-import React from "react";
 import { MdOutlineMail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
@@ -52,7 +51,5 @@ function Contact() {
     </div>
   );
 }
-
-export default Contact;
 
 export default Contact;
